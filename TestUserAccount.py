@@ -2,7 +2,17 @@
 import UserAccount
 
 #Three things are missing from the line below - fill them in
-my_user=UserAcount(  ,  ,  )
+my_username="sihamabuali"
+my_password="meetyear18"
+my_secret="nothing!"
+my_user=UserAcount(my_username,my_password,my_secret)
+
+my_user.print_secret()
+my_password.print_secret()
+my_secret.print_secret()
+
+
+
 
 #Call the print_secret method (function) - it takes one input - a guess for the password.
 
