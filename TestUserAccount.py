@@ -1,11 +1,11 @@
 #This script performs some simple tests on the UserAccount class.
-import UserAccount
+from UserAccount import UserAccount
 
 #Three things are missing from the line below - fill them in
 my_username="sihamabuali"
 my_password="meetyear18"
 my_secret="nothing!"
-my_user=UserAcount(my_username,my_password,my_secret)
+my_user=UserAccount(my_username,my_password,my_secret)
 
 my_user.print_secret()
 my_password.print_secret()
